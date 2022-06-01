@@ -24,7 +24,7 @@ const auth = getAuth(app);
 export const yeniKullaniciKayit = (email, password, isimSoyisim, navigate) => {
   createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-      navigate("/paramolsadabenalsam-altas");
+      navigate("/");
       onayMesaj("Kayıt Başarılı");
       updateProfile(auth.currentUser, {
         displayName: isimSoyisim,
@@ -39,7 +39,7 @@ export const kullaniciGiris = (email, password, navigate) => {
   signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       onayMesaj("Giriş Başarılı");
-      navigate("/paramolsadabenalsam-altas");
+      navigate("/");
     })
     .catch((error) => {
       console.log(error);

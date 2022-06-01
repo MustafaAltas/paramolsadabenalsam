@@ -19,7 +19,7 @@ export default function Basket() {
   const navigate = useNavigate();
   const {basketScore} = React.useContext(AppContext);
   return (
-    <IconButton aria-label="cart" onClick={() => navigate("/paramolsadabenalsam-altas/basket")}>
+    <IconButton aria-label="cart" onClick={() => navigate("/basket")}>
       <StyledBadge badgeContent={basketScore?.length} color="secondary">
         <ShoppingCartIcon sx={{color:"white"}}/>
       </StyledBadge>

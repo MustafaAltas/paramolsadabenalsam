@@ -33,11 +33,11 @@ export default function MenuAppBar() {
   };
 
   const handleLogin = () => {
-    navigate("/paramolsadabenalsam-altas/login");
+    navigate("/login");
     setAnchorEl(null);
   };
   const handleRegiter = () => {
-    navigate("/paramolsadabenalsam-altas/register");
+    navigate("/register");
     setAnchorEl(null);
   };
   const handleLogout = () => {
@@ -88,7 +88,7 @@ export default function MenuAppBar() {
               color: "pink",
               cursor: "pointer",
             }}
-            onClick={() => navigate("/paramolsadabenalsam-altas")}
+            onClick={() => navigate("/")}
             className="header"
           >
             paramolsadabenalsam.com

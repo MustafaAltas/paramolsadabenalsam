@@ -16,11 +16,11 @@ function AppRouter() {
         <MenuAppBar />
         <Main />
         <Routes>
-          <Route path="/paramolsadabenalsam-altas" element={<ProductSlick />} />
-          <Route path="/paramolsadabenalsam-altas/login" element={<Login />} />
-          <Route path="/paramolsadabenalsam-altas/register" element={<Register />} />
-          <Route path="/paramolsadabenalsam-altas/detail" element={<Detail />} />
-          <Route path="/paramolsadabenalsam-altas/basket" element={<BasketDetail />} />
+          <Route path="/" element={<ProductSlick />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/detail" element={<Detail />} />
+          <Route path="/basket" element={<BasketDetail />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

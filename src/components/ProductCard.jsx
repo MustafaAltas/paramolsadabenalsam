@@ -110,7 +110,7 @@ export default function ProductCard({ item }) {
         <Tooltip disableFocusListener disableTouchListener title="Detail Page">
           <IconButton
             aria-label="read more"
-            onClick={() => navigate("/paramolsadabenalsam-altas/detail", { state: { item } })}
+            onClick={() => navigate("/detail", { state: { item } })}
           >
             <MoreHorizIcon />
           </IconButton>

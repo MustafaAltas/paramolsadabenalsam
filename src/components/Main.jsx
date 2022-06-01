@@ -18,7 +18,7 @@ function Main() {
   const handleCategory = (e) => {
     setCategory(e.target.innerText);
     setState(false)
-    navigate("/paramolsadabenalsam-altas")
+    navigate("/")
   }
   return (
     <div>
