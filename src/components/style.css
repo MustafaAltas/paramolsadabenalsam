@@ -1,0 +1,81 @@
+.mustafa {
+    width:"100vw";
+    background-image: url(https://picsum.photos/1600/900
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 2rem;
+}
+
+.box {
+    width: 30vw;
+    height: 70vh;
+    min-width: 260px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: rgb(255, 255, 255,0.8);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.profile {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: 'Girassol', cursive;
+    color: #046482;
+}
+.newblog {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slick {
+    width: 95vw;
+    margin: 1rem auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.slick-div{
+    display:"flex";
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.grid {
+    margin-top: 5rem;
+}
+.footer {
+    padding: 0.7rem;
+    background-color: #0A1931;
+    color: white;
+}
+
+
+.icon{
+    color: white;
+    transition: all 0.5s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: chocolate;
+}
+
+.header {
+    width: 100px;
+    font-variant:h1;
+}
